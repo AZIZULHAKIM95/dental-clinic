@@ -10,7 +10,6 @@ import About from './Pages/About/About'
 import Checkout from './Pages/Checkout/Checkout';
 import Services from './Pages/Home/Services/Services';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
-import Footer from './Pages/Shared/Footer/Footer'
 
 function App() {
   return (
@@ -31,7 +30,6 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
-      <Footer></Footer>
     </div>
   );
 }

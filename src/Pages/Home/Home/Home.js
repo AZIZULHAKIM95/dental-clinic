@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import ClientFeedback from '../ClientFeedback/ClientFeedback';
 import './Home.css'
 import Services from '../Services/Services';
+import Footer from '../../Shared/Footer/Footer'
 
 const Home = () => {
     return (
@@ -18,7 +19,7 @@ const Home = () => {
             <ClientFeedback></ClientFeedback>
             <br />
             <br />
-
+            <Footer></Footer>
         </div>
     );
 };

@@ -20,8 +20,8 @@ const Banner = () => {
                     alt="First slide"
                 />
                 <Carousel.Caption>
-                    <h3 className='text-dark'>A Warm Welcome And A Beautiful Smile</h3>
-                    <p className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</p>
+                    <h2 className='text-dark'>A Warm Welcome And A Beautiful Smile</h2>
+                    <h5 className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</h5>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,8 +32,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3 className='text-dark'>Doctor, Dentist, Medical and Healthcare.</h3>
-                    <p className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</p>
+                    <h2 className='text-dark'>Doctor, Dentist, Medical and Healthcare.</h2>
+                    <h5 className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</h5>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -44,8 +44,8 @@ const Banner = () => {
                 />
 
                 <Carousel.Caption>
-                    <h3 className='text-dark'>Your Smile, Your Beauty</h3>
-                    <p className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</p>
+                    <h2 className='text-dark'>Your Smile, Your Beauty</h2>
+                    <h5 className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</h5>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

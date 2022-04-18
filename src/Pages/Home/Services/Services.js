@@ -8,7 +8,7 @@ const Services = () => {
     const [services, setServices] = useService()
     return (
         <div className='container m-auto text-center'>
-            <h1 className='text-info'>SERVICES WE PROVIDE</h1>
+            <h1 className='text-info mt-4'>SERVICES WE PROVIDE</h1>
             <br />
             <br />
             <CardGroup>
