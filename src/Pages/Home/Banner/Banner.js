@@ -21,7 +21,7 @@ const Banner = () => {
                 />
                 <Carousel.Caption>
                     <h2 className='text-dark'>A Warm Welcome And A Beautiful Smile</h2>
-                    <h5 className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</h5>
+                    <h5 className='text-dark'>Dr. Maddy Brown Provides Dental Checkups Diagnosis And Treatment.</h5>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -33,7 +33,7 @@ const Banner = () => {
 
                 <Carousel.Caption>
                     <h2 className='text-dark'>Doctor, Dentist, Medical and Healthcare.</h2>
-                    <h5 className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</h5>
+                    <h5 className='text-dark'>Dr. Maddy Brown Provides Dental Checkups Diagnosis And Treatment.</h5>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,7 +45,7 @@ const Banner = () => {
 
                 <Carousel.Caption>
                     <h2 className='text-dark'>Your Smile, Your Beauty</h2>
-                    <h5 className='text-dark'>Dr. Maddy Brown provides Dental checkups diagnosis and treatment.</h5>
+                    <h5 className='text-dark'>Dr. Maddy Brown Provides Dental Checkups Diagnosis And Treatment.</h5>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

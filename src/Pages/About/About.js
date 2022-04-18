@@ -9,7 +9,7 @@ const About = () => {
             <br />
             <h2 className='text-center text-info'>Welcome to Dr. Maddy Brown Pvt. Ltd</h2>
             <br />
-            <p>Prevention is Better than cure. Dr. Maddy Brown provides physiotherapy Dental checkups diagnosis and treatment. Dr Maddy Brown is an Initiative by Dr. Madhav Sharma who is a Dental Surgeon. Dr Maddy Brown provides Knowledge and Treatment of the Dental Health and Physiotheraphy, which will Help Indian Population to Maintain Health. Dr Maddy Brown allows the Patients to learn about Health Care Plan for Dental and Physiotheraphy, Which is Free Of Cost.Dr Maddy Brown is a One Stop Solution for all your Health in the Speciality of Dental and Physiotheraphy.Dr Maddy Brown provides a Lifetime Opportunity to learn about Health Care from Successful Specialist Doctors. VISIONTo help people live a life…</p>
+            <p>Prevention is Better than cure. Dr. Maddy Brown provides physiotherapy Dental checkups diagnosis and treatment. Dr. Maddy Brown is an Initiative by Dr. Madhav Sharma who is a Dental Surgeon and provides Knowledge and Treatment of the Dental Health and Physiotheraphy. Dr. Maddy Brown is a One Stop Solution for all your Health in the Speciality of Dental. Dr. Maddy Brown provides a Lifetime Opportunity to learn about Health Care from Successful Specialist Doctors. Dr. Maddy Browns goal is to achieve Master of Dental Surgery (MDS), Fellow of the Royal College of Dentists of Canada (FRCD(C)) and Doctor of Dentistry (DDent).</p>
             <br />
             <br />
         </div>

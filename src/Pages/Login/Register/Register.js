@@ -53,19 +53,14 @@ const Register = () => {
         <div className='register-form mt-4'>
             <h2 style={{ textAlign: 'center' }}>Please Register</h2>
             <br />
-            <Form onSubmit={handleRegister}>
+            <form onSubmit={handleRegister}>
 
-                <Form.Group className="mb-3" controlId="formBasicName">
-                    <Form.Control type="name" placeholder="Your Name" required />
-                </Form.Group>
+                <input type="text" name="name" id="" placeholder='Your Name' />
 
-                <Form.Group className="mb-3" controlId="formBasicEmail">
-                    <Form.Control type="email" placeholder="Enter email" required />
-                </Form.Group>
+                <input type="email" name="email" id="" placeholder='Email Address' required />
 
-                <Form.Group className="mb-3" controlId="formBasicPassword">
-                    <Form.Control type="password" placeholder="Password" required />
-                </Form.Group>
+                <input type="password" name="password" id="" placeholder='Password' required />
+
                 <div className='d-flex w-100 justify-content-around mt-4'>
                     <input className='w-25' onClick={() => setAgree(!agree)} type="checkbox" name="terms" id="terms" />
 
@@ -76,7 +71,7 @@ const Register = () => {
                     className='w-50 mx-auto btn btn-info mt-2'
                     type="submit"
                     value="Register" />
-            </Form>
+            </form>
             <p>Already Have An Account.? <Link to="/login" className='text-danger pe-auto text-decoration-none' onClick={navigateLogin}>Please Login</Link> </p>
             <SocialAccount></SocialAccount>
         </div>
