@@ -7,8 +7,10 @@ import { CardGroup } from 'react-bootstrap';
 const Services = () => {
     const [services, setServices] = useService()
     return (
-        <div className='container m-auto'>
-            <h1>SERVICES WE PROVIDE</h1>
+        <div className='container m-auto text-center'>
+            <h1 className='text-info'>SERVICES WE PROVIDE</h1>
+            <br />
+            <br />
             <CardGroup>
                 {
                     services.map(service => <Service

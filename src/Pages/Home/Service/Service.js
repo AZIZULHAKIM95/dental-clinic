@@ -9,8 +9,8 @@ const Service = (props) => {
             <Card className='m-4'>
                 <Card.Img className='w-25 m-auto bg-light' variant="top" src={img} />
                 <Card.Body>
-                    <Card.Title className='fs-3 ms-5'>{name}</Card.Title>
-                    <Card.Text className='ms-4'>
+                    <Card.Title className='fs-3'>{name}</Card.Title>
+                    <Card.Text>
                         {description}
                     </Card.Text>
                 </Card.Body>

@@ -4,6 +4,11 @@ import Header from './Pages/Shared/Header/Header'
 import Home from './Pages/Home/Home/Home'
 import Blogs from './Pages/Blogs/Blogs'
 import NotFound from './Pages/Shared/NotFound/NotFound';
+import Login from './Pages/Login/Login/Login';
+import Register from './Pages/Login/Register/Register';
+import About from './Pages/About/About'
+import Appointment from './Pages/Appointment/Appointment';
+import Services from './Pages/Home/Services/Services';
 
 function App() {
   return (
@@ -11,7 +16,13 @@ function App() {
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path='/home' element={<Home />}></Route>
+        <Route path='/services' element={<Services />}></Route>
+        <Route path='/login' element={<Login />}></Route>
+        <Route path='/register' element={<Register />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
+        <Route path='/appointment' element={<Appointment />}></Route>
+        <Route path='/about' element={<About />}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import k from '../../../images/k.jpg';
 
 const NotFound = () => {
     return (
-        <div>
-            <h2>not found</h2>
+        <div className='justify-content-center align-items-center'>
+            <img className='w-100' src={k} alt="" />
         </div>
     );
 };

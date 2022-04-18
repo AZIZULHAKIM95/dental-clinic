@@ -7,8 +7,10 @@ import { CardGroup } from 'react-bootstrap';
 const ClientFeedback = () => {
     const [feedbacks, setFeedbacks] = useFeedback()
     return (
-        <div className='container m-auto'>
-            <h1>CUSTOMERS FEEDBACK</h1>
+        <div className='container mx-auto text-center'>
+            <h1 className='text-info'>CLIENTS FEEDBACK</h1>
+            <br />
+            <br />
             <CardGroup>
                 {
                     feedbacks.map(feedback => <SingleFeedback

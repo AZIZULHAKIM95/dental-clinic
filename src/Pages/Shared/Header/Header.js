@@ -16,39 +16,36 @@ const Header = () => {
     }
 
     return (
-        <>
+        <div>
             <Navbar collapseOnSelect expand="lg" sticky='top' bg="primary" variant="dark">
                 <Container>
-                    <Navbar.Brand as={Link} to="/">
+                    <Navbar.Brand className='d-flex' as={Link} to="/">
                         <img height={35} src={logo} alt="" />
-                        DENTAL CLINIC
+                        <p className='fw-bold mx-2'>DENTAL CLINIC</p>
+
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="me-auto">
-                            <Nav.Link href="home#services">Services</Nav.Link>
-                            <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
-                            <Nav.Link as={Link} to='/appoinment'>Appoinment</Nav.Link>
-                        </Nav>
+                        <Nav className="me-auto"></Nav>
                         <Nav>
-                            <Nav.Link as={Link} to="about">About</Nav.Link>
+                            <Nav.Link className='fw-bold' as={Link} to='/home'>HOME</Nav.Link>
+                            <Nav.Link className='fw-bold' as={Link} to='/services'>SERVICES</Nav.Link>
+                            <Nav.Link className='fw-bold' as={Link} to='/appointment'>APPOINTMENT</Nav.Link>
+                            <Nav.Link className='fw-bold' as={Link} to='/blogs'>BLOGS</Nav.Link>
+                            <Nav.Link className='fw-bold' as={Link} to="/about">ABOUT</Nav.Link>
                             {
                                 user ?
-                                    <button className='btn btn-link text-white text-decoration-none' onClick={handleSignOut}>sign out</button>
+                                    <button className='btn btn-link text-danger text-decoration-none fw-bold' onClick={handleSignOut}>SIGN OUT</button>
                                     :
-                                    <Nav.Link as={Link} to="login">
-                                        Login
+                                    <Nav.Link className='text-danger fw-bold' as={Link} to="/login">
+                                        LOGIN
                                     </Nav.Link>}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
 
-        </>
-
-
-
-
+        </div>
     );
 };
 
