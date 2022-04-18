@@ -2,19 +2,22 @@
     {
         "id": "1",
         "img": "https://gainesvillesundaydental.com/storage/app/media/dentist-in-gainesville-va-tooth.jpg",
-        "name": "Partial Dentures",
-        "description": "Amazing build quality, design, and updagradability. Very Trusted site."
+        "name": "Dental Orthodontics",
+        "description": "Abnormal alignment of the teeth and jaws is very common. Nearly 50% of the developed world's population, according to the American Association of Orthodontics, has malocclusions severe enough to benefit from orthodontic treatment.",
+        "price": "$350"
     },
     {
         "id": "2",
         "img": "https://www.premieroneimplantcenters.com/wp-content/uploads/2020/02/dental-implant-icon.png",
         "name": "Dental Implants",
-        "description": "Ah, yes. A laptop that can run like a thermo-neuclear explosion."
+        "description": "A dental implant is a prosthesis that interfaces with the bone of the jaw or skull to support a dental prosthesis such as a crown, bridge, denture, or facial prosthesis or to act as an orthodontic anchor. The final prosthetic can be either fixed",
+        "price": "$450"
     },
     {
         "id": "3",
         "img": "https://www.seekpng.com/png/small/940-9407654_teeth-whitening-root-canal-treatment-icon.png",
         "name": "Cosmetic Dentistry",
-        "description": "The surface laptop part sitution really much better than the M1 macs."
+        "description": "Cosmetic dentistry is generally used to refer to any dental work that improves the appearance of teeth, gums and/or bite. It primarily focuses on improvement in dental aesthetics in color, position, shape, size, alignment and overall smile appearance.",
+        "price": "$400"
     }
 ]

@@ -7,8 +7,10 @@ import NotFound from './Pages/Shared/NotFound/NotFound';
 import Login from './Pages/Login/Login/Login';
 import Register from './Pages/Login/Register/Register';
 import About from './Pages/About/About'
-import Appointment from './Pages/Appointment/Appointment';
+import Checkout from './Pages/Checkout/Checkout';
 import Services from './Pages/Home/Services/Services';
+import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+import Footer from './Pages/Shared/Footer/Footer'
 
 function App() {
   return (
@@ -21,11 +23,15 @@ function App() {
         <Route path='/login' element={<Login />}></Route>
         <Route path='/register' element={<Register />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>
-        <Route path='/appointment' element={<Appointment />}></Route>
+        <Route path='/checkout' element={
+          <RequireAuth>
+            <Checkout />
+          </RequireAuth>
+        }></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
-
+      <Footer></Footer>
     </div>
   );
 }

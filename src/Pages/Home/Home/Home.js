@@ -1,6 +1,5 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import Footer from '../../Shared/Footer/Footer';
 import ClientFeedback from '../ClientFeedback/ClientFeedback';
 import './Home.css'
 import Services from '../Services/Services';
@@ -11,11 +10,14 @@ const Home = () => {
             <Banner></Banner>
             <br />
             <br />
+            <br />
             <Services></Services>
             <br />
             <br />
+            <br />
             <ClientFeedback></ClientFeedback>
-            <Footer></Footer>
+            <br />
+            <br />
 
         </div>
     );
