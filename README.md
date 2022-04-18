@@ -1,35 +1,26 @@
-# Getting Started with Create React App
+# Independent Service Provider
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is here: [Create React App].
 
-## Available Scripts
+## DOCTOR CLINIC
 
-In the project directory, you can run:
+In the project directory, we create a DENTAL website. In Home section we add a navbar, a banner, describe about our sevices and some customers reviews. 
 
-### `npm start`
+### Reviews Section
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In this section we declare about our customers feedback. And all our customers are very very happy about our services.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Services Section
 
-### `npm test`
+In services section we added our services. And our services are effective and in reasonable price.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Blogs Section`
 
-### `npm run build`
+In blogs section we describe difference between authentication and authorization, About firebase and alternative options of firebase AND the services which firebase provides.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### About Section
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+In this section we describe about Dr. Maddy Brown works and his goal.
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
