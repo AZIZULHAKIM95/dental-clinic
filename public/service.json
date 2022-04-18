@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "img": "https://gainesvillesundaydental.com/storage/app/media/dentist-in-gainesville-va-tooth.jpg",
+        "name": "Partial Dentures",
+        "description": "Amazing build quality, design, and updagradability. Very Trusted site."
+    },
+    {
+        "id": "2",
+        "img": "https://www.premieroneimplantcenters.com/wp-content/uploads/2020/02/dental-implant-icon.png",
+        "name": "Dental Implants",
+        "description": "Ah, yes. A laptop that can run like a thermo-neuclear explosion."
+    },
+    {
+        "id": "3",
+        "img": "https://www.seekpng.com/png/small/940-9407654_teeth-whitening-root-canal-treatment-icon.png",
+        "name": "Cosmetic Dentistry",
+        "description": "The surface laptop part sitution really much better than the M1 macs."
+    }
+]
